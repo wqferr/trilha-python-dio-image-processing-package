@@ -1,23 +1,23 @@
-# image_processing
+# wqferr_image_processing
 
 Description.
-The package image_processing is used to:
+The package wqferr_image_processing is used to:
 
 - Resize images given a proportion;
 - Match histograms from one image to another.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install wqferr_image_processing
 
 ```bash
-pip install image_processing
+pip install wqferr_image_processing
 ```
 
 ## Usage
 
 ```python
-from image_processing.processing import combination
+from wqferr_image_processing.processing import combination
 combination.find_difference(im1, im2)
 ```
 

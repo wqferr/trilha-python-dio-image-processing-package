@@ -7,8 +7,8 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="image_processing",
-    version="0.0.1",
+    name="wqferr_image_processing",
+    version="0.1.1",
     author="William Q Ferreira",
     author_email="wqferr@gmail.com",
     description="An example package wrapping simple functionality from skimage.",
